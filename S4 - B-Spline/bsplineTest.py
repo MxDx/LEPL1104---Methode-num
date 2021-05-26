@@ -38,6 +38,7 @@ def bspline(X,Y,t):
   Y = [*Y, *Y[0:3]]
 
 
+
   B_spl = np.zeros((n-p,len(t)))
 
   for i in range(n-p):
