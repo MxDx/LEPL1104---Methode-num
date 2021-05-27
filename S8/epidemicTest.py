@@ -193,7 +193,8 @@ m = 10; n = Xend * m
 
 X,U = epidemicRungeKutta(Xstart,Xend,Ustart,n,beta,gamma)
 
-print("Time : {} [s]".format(time.time() - start))
+print("Time : {:e} [s]".format(time.time() - start))
+
 
 #
 # -3.1- Données du Japon à partir du 22 janvier 2020
